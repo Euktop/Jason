@@ -1,6 +1,6 @@
 import os
-from domain.interfaces import IFileReader
-from domain.exceptions import DomainError
+from jason.domain.interfaces import IFileReader
+from jason.domain.exceptions import DomainError
 
 class FileReader(IFileReader):
     def read_text(self, path: str) -> str:

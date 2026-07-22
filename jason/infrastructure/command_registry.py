@@ -1,6 +1,6 @@
 from typing import Dict
-from domain.interfaces import ICommandHandler, ICommandRegistry
-from domain.exceptions import CommandNotFoundError
+from jason.domain.interfaces import ICommandHandler, ICommandRegistry
+from jason.domain.exceptions import CommandNotFoundError
 
 class SimpleCommandRegistry(ICommandRegistry):
     def __init__(self):

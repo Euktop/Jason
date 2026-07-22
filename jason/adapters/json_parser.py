@@ -1,7 +1,7 @@
 import json
 from typing import Dict, Any
-from domain.exceptions import InvalidJsonError
-from application.dtos import CommandRequest
+from jason.domain.exceptions import InvalidJsonError
+from jason.application.dtos import CommandRequest
 
 class JsonCommandParser:
     def parse(self, raw_json: str) -> CommandRequest:

@@ -1,6 +1,6 @@
-from domain.interfaces import ICommandRegistry, IOutput
-from domain.exceptions import CommandNotFoundError, CommandExecutionError
-from application.dtos import CommandRequest
+from jason.domain.interfaces import ICommandRegistry, IOutput
+from jason.domain.exceptions import CommandNotFoundError, CommandExecutionError
+from jason.application.dtos import CommandRequest
 
 class ProcessCommandUseCase:
     def __init__(self, registry: ICommandRegistry, output: IOutput):

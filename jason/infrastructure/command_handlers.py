@@ -1,6 +1,6 @@
 from typing import Any, Dict
-from domain.interfaces import ICommandHandler
-from domain.exceptions import CommandExecutionError
+from jason.domain.interfaces import ICommandHandler
+from jason.domain.exceptions import CommandExecutionError
 
 class PrintCommandHandler(ICommandHandler):
     def execute(self, params: Dict[str, Any]) -> Any:

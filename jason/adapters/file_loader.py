@@ -1,6 +1,6 @@
-from domain.interfaces import IFileReader
-from adapters.json_parser import JsonCommandParser
-from application.dtos import CommandRequest
+from jason.domain.interfaces import IFileReader
+from jason.adapters.json_parser import JsonCommandParser
+from jason.application.dtos import CommandRequest
 
 class FileCommandLoader:
     def __init__(self, file_reader: IFileReader, parser: JsonCommandParser):

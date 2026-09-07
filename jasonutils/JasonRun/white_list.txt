@@ -1,0 +1,24 @@
+# Белый список разрешённых путей.
+# Каждый путь — на отдельной строке.
+# Строки, начинающиеся с #, игнорируются.
+# Если указана папка — все дочерние файлы/папки автоматически разрешены.
+# Пустые строки игнорируются.
+
+C:\Users\eukto\Desktop\Скрипты\Scripts\jasonutils\JasonRun
+C:\Users\eukto\Desktop\Work\My_notes
+D:\repos\AI_Talk
+C:\Users\eukto\Desktop\Новая папка
+C:\Users\eukto\Desktop\Скрипты\Scripts\test
+C:\Users\eukto\Desktop\Скрипты\Scripts\jasonutils\README.md
+C:\Users\eukto\Desktop\Скрипты\Scripts\jasonutils\COMMANDS.md
+C:\Users\eukto\Desktop\Скрипты\Scripts\UCPP
+D:\repos\ActantWeb
+D:\repos\ActantAI
+C:\Users\eukto\Desktop\clear architecture
+C:\Users\eukto\Desktop\Скрипты\Scripts\SyteAnalyzer
+C:\Users\eukto\Desktop\Скрипты\Scripts\Context Summary
+C:\Users\eukto\Desktop\Notes
+C:\\Users\\eukto\\Desktop\\Скрипты\\Scripts\\ObsidianValidator
+C:\Users\eukto\Desktop\vivo_notes_export
+D:\\Work
+D:\repos\mail_bridge

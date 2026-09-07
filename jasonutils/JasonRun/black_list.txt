@@ -1,0 +1,7 @@
+# Чёрный список запрещённых путей.
+# Имеет приоритет над белым списком.
+# Если указана папка — все дочерние файлы/папки автоматически запрещены.
+
+C:\Users\eukto\Desktop\Скрипты\Scripts\jasonutils\JasonRun\logs
+C:\Users\eukto\Desktop\Скрипты\Scripts\jasonutils\JasonRun\white_list.txt
+C:\Users\eukto\Desktop\Скрипты\Scripts\jasonutils\JasonRun\black_list.txt

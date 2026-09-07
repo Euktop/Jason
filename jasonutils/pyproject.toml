@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jasonutils"
+version = "1.0.0"
+authors = [{ name = "Euktop", email = "your@email.com" }]
+description = "Python-библиотека для выполнения команд JasonUtils (на базе ядра Jason)"
+requires-python = ">=3.8"
+dependencies = [
+    "pyyaml>=6.0",
+    "jsonschema>=4.0.0",
+    # Примечание: ядро 'jason' предполагается уже установленным локально
+]
+
+[tool.setuptools.packages.find]
+# Указываем setuptools искать пакет в родительской директории (в папке Scripts)
+where = ["../"] 
+include = ["jasonutils*"]
